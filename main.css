@@ -6,13 +6,11 @@ html{
     flex-direction: row;
     justify-content: flex-end;
     align-content: space-between;
-}
-ul{
-    list-style: none;
+    list-style-type: none;
 }
 ul > li{
     margin: 5px;
 }
-ul > a{
+a:link{
     text-decoration: none;
 }
