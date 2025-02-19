@@ -1,0 +1,18 @@
+html{
+    margin: 15px;
+}
+.my-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+ul{
+    list-style: none;
+}
+ul > li{
+    margin: 5px;
+}
+ul > a{
+    text-decoration: none;
+}
