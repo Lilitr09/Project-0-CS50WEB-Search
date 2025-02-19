@@ -14,3 +14,15 @@ ul > li{
 a:link{
     text-decoration: none;
 }
+.custom-btn{
+    background-color: #4CAF50;
+    color: white
+}
+.custom-search{
+    width: 100%;
+    padding: 10px;
+}
+.custom-btn:hover{
+    background-color: #89dd8b;
+    color: white;
+}
