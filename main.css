@@ -60,10 +60,9 @@ a:link {
     font-size: 1.2rem;
     color: #333333;
     margin-bottom: 20px;
-    margin-left: 15px;
 }
 .block-search {
-    margin: 50px;
+    margin: 40px;
 }
 .row-line {
     display: flex;
