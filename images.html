@@ -9,15 +9,25 @@
     <link rel="stylesheet" href="/bootstrap-css/bootstrap.css">
 </head>
 <body>
-    <div>
+    <!--Nav Bar-->
+    <div class="container-fluid">
         <ul class="my-navbar">
-            <li><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="/index.html">Home</a></li>
+            <li class="nav-item"><a href="advanced.html">Advanced Search</a></li>
         </ul>
     </div>
-    <form action="https://google.com/search">
-        <input type="text" name="q" placeholder="Images">
-        <input type="submit" value="Google Search">
-    </form>
+    
+    <!-- Image Search form-->
+    <div class="container mt-5 contenedor">
+        <div class="justify-content-center container-fluid">
+            <div class="col-md-12" >
+                <form action="https://google.com/search" class="d-flex" role="search">
+                    <input type="text" name="q" placeholder="Image Search" class="form-control me-2 rounded-pill">
+                    <input type="submit" value="Google Search" class="btn rounded-pill btn-outline-success">
+                </form>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>

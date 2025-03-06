@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Problem set 0 CS50 Web">
+    <meta name="author" content="Liliana Torres">
+    <meta name="keywords" content="Search, Images">
+    <!-- Title -->
     <title>Search</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="/bootstrap-css/bootstrap.css">
+    <!-- Bootstrap (Add cdn link) -->
     <link rel="stylesheet" href="/bootstrap-css/bootstrap.min.css">
 </head>
 <body>
+    <!--Nav Bar-->
     <div class="container-fluid">
         <ul class="my-navbar">
+            <li class="nav-item"><a href="/index.html">Home</a></li>
             <li class="nav-item"><a href="images.html">Image Search</a></li>
             <li class="nav-item"><a href="advanced.html">Advanced Search</a></li>
         </ul>
     </div>
     
-    <div class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <form action="https://google.com/search">
-                    <input type="text" name="q" placeholder="Search" class="form-control me-2 rounded-pill custom-search">
-                    <input type="submit" value="Google Search" class="btn rounded-pill custom-btn">
+    <!--Search form-->
+    <div class="container mt-5 contenedor">
+        <div class="justify-content-center container-fluid">
+            <div class="col-md-12" >
+                <form action="https://google.com/search" class="d-flex" role="search">
+                    <input type="text" name="q" placeholder="Search" class="form-control me-2 rounded-pill">
+                    <input type="submit" value="Google Search" class="btn rounded-pill btn-outline-success">
                 </form>
             </div>
         </div>
