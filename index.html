@@ -19,27 +19,29 @@
 <body>
     <!--Nav Bar-->
     <div class="container-fluid">
-        <ul class="my-navbar">
-            <li class="nav-item"><a href="/index.html">Home</a></li>
-            <li class="nav-item"><a href="images.html">Image Search</a></li>
-            <li class="nav-item"><a href="advanced.html">Advanced Search</a></li>
+        <ul class="my-navbar nav nav-tabs">
+            <li class="nav-item"><a href="/index.html" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="images.html" class="nav-link">Image Search</a></li>
+            <li class="nav-item"><a href="advanced.html" class="nav-link">Advanced Search</a></li>
         </ul>
     </div>
     
     <!--Search form-->
     <div class="container mt-5 contenedor">
-        <div class="justify-content-center container-fluid">
+        <div class="justify-content-center container">
             <div class="container center-div">
                 <!-- Google Image -->
-                <img src="Google_2015_logo.svg.webp" alt="Google Logo" height="92">
+                <img src="Google_2015_logo.svg.webp" alt="Google Logo" height="92" class="google-img">
             </div>
-            <div class="row" >
-                <form action="https://google.com/search" class="d-flex center-div" role="search">
-                    <input type="text" name="q" placeholder="Search" class="form-control form-control-lg me-2 rounded-pill col-12">
-                </form>
-                <form action="https://google.com/search" class="d-flex center-div">
-                    <input type="submit" value="Google Search" class="btn rounded-pill btn-outline-success">
-                    <input type="submit" value="I'm Feeling Lucky" class="btn rounded-pill btn-outline-success" name="btnI">
+            <div class="container-fluid">
+                <form action="https://google.com/search" class="d-flex flex-column" role="search">
+                    <div class="mb-3">
+                        <input type="text" name="q" placeholder="Search" class="form-control form-control-lg me-2 rounded-pill col-12">
+                    </div>
+                    <div class="mb-3 center-div">
+                        <input type="submit" value="Search" class="btn btn-light rounded-pill">
+                        <input type="submit" value="I'm Feeling Lucky" class="btn btn-light rounded-pill" name="btnI">
+                    </div>
                 </form>
             </div>
         </div>

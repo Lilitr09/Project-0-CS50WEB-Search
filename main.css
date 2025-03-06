@@ -30,7 +30,8 @@ a:link {
 
 /* Home Page Styles */ 
 
-.btn-google {
+.btn {
+    background-color: #999696;
     color: #e8eaed;
     font-family: Arial,sans-serif;
     font-size: 14px;
@@ -43,6 +44,11 @@ a:link {
     cursor: pointer;
     user-select: none;
 }
+@media screen and (min-width: 700px) {
+    .google-img {
+        max-width: 600px;
+    }
+}
 
 /* Advanced Search Styles */
 .advanced-title {
@@ -54,6 +60,7 @@ a:link {
     font-size: 1.2rem;
     color: #333333;
     margin-bottom: 20px;
+    margin-left: 15px;
 }
 .block-search {
     margin: 50px;
@@ -80,4 +87,9 @@ a:link {
     justify-content: flex-end;
     width: 710px;
     margin-top: 30px;
+}
+@media screen and (max-width: 560px) {
+    .input {
+        max-width: 400px;
+    }
 }

@@ -20,23 +20,23 @@
 <body>
     <!--Nav Bar-->
     <div class="container-fluid">
-        <ul class="my-navbar">
-            <li class="nav-item"><a href="/index.html">Home</a></li>
-            <li class="nav-item"><a href="/images.html">Image Search</a></li>
+        <ul class="my-navbar nav nav-tabs">
+            <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="images.html" class="nav-link">Image Search</a></li>
+            <li class="nav-item"><a href="advanced.html" class="nav-link active">Advanced Search</a></li>
         </ul>
     </div>
 
     <!-- Advanced Search Heading -->
-    <div class="advanced-title container">
+    <div class="advanced-title container mt-5">
         <label>Advanced Search</label>
     </div>
-    <hr>
 
     <!-- Searching Forms -->
-    <div class="block-search container">
+    <div class="block-search">
         <h2 class="h2-advanced">Find pages with...</h2>
         <form action="https://google.com/search">
-            <div class="container">
+            <div class="container mt-5">
                 <div class="row-line">
                     <div class="instructions">
                         <p>all these words: </p>
@@ -72,7 +72,7 @@
                         <input type="text" name="as_eq" class="form-control">
                     </div>
                 </div>
-                <div class="advanced-button container">
+                <div class="advanced-button">
                     <input type="submit" value="Advanced Search" class="btn btn-primary">
                 </div>
             </div>
