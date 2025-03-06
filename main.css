@@ -1,4 +1,4 @@
-/* Main Pages Styles */
+/* General Styles */
 
 html {
     margin: 15px;
@@ -27,6 +27,9 @@ a:link {
     justify-content: center;
     margin: 25px;
 }
+
+/* Home Page Styles */ 
+
 .btn-google {
     color: #e8eaed;
     font-family: Arial,sans-serif;
@@ -39,4 +42,42 @@ a:link {
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+
+/* Advanced Search Styles */
+.advanced-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f28b82;
+}
+.h2-advanced {
+    font-size: 1.2rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.block-search {
+    margin: 50px;
+}
+.row-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 10px;
+}
+.instructions {
+    width: 250px;
+    margin: 0;
+}
+.instructions p {
+    margin: 0;
+}
+.input input {
+    width: 450px;
+}
+.advanced-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 710px;
+    margin-top: 30px;
 }
