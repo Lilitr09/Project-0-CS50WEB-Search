@@ -1,24 +1,42 @@
 /* Main Pages Styles */
 
-html{
+html {
     margin: 15px;
 }
-.my-navbar{
+.my-navbar {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-content: space-between;
     list-style-type: none;
 }
-ul > li{
+ul > li {
     margin: 10px;
 }
-a:link{
+a:link {
     text-decoration: none;
 }
-.contenedor{
+.contenedor {
     height: 400px;
     display: flex;
     align-items: last baseline;
     justify-content: center;
+}
+.center-div {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.btn-google {
+    color: #e8eaed;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
